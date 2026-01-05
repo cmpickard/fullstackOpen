@@ -1,0 +1,2 @@
+# delete contact with id = 1
+DELETE http://localhost:3001/api/contacts/1

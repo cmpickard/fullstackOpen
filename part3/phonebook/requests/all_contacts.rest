@@ -1,0 +1,9 @@
+GET http://localhost:3001/api/contacts
+
+###
+# access just one contact by id
+GET http://localhost:3001/api/contacts/1
+
+###
+# access non-existent contact with bad id
+GET http://localhost:3001/api/contacts/-1
